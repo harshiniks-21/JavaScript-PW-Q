@@ -36,7 +36,7 @@ console.log(b)*/
 
  name="Harshini"
  console.log(name)
- name="Qspiders"
+ name="JavaScript"
  console.log(name)
- var name="QPS"
+ var name="JS"
  console.log(name)
