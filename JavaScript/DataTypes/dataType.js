@@ -65,7 +65,7 @@ let city="Tiptur"
 let hobby=("i love JavaScript ")
 console.log(hobby)
 var msg="i'm from Tiptur"
-console.log(msg)
+console.log(msg) 
 
 //?2 adv
 //multi line string
