@@ -13,7 +13,9 @@
 //? array
 //? object
 // //! to check the data type of a value
+
 // //? typeof()
+
 // //! number
 var a=10
 var b=20.5
