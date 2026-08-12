@@ -1,0 +1,15 @@
+// //! Addition of two numbers
+let a=10
+let b=20
+let res=a+b
+console.log(`the sum of ${a} and ${b} is ${res}`)
+ // //! performing operation inside the printing statment without using third variable 
+ let c=10
+ let d=20
+ console.log(`the product of ${c} and ${d} is ${c*d}`)
+
+
+ //Tokanization
+ // //? case sensitive
+ let name="John"
+ let Name="smith"
