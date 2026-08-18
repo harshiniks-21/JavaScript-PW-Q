@@ -143,15 +143,5 @@ if(age>=18)
         default :
             console.log("Do Nothing")
     }
+
     
-    
-    // ? // Looping Statement
-    //! for loop
-
-    for(let i=1;i<=10;i++)
-    {
-        console.log(i)
-    }
-
-
-
