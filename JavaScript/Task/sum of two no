@@ -1,15 +1,31 @@
-// //! Addition of two numbers
-let a=10
-let b=20
-let res=a+b
-console.log(`the sum of ${a} and ${b} is ${res}`)
- // //! performing operation inside the printing statment without using third variable 
- let c=10
- let d=20
- console.log(`the product of ${c} and ${d} is ${c*d}`)
+// // //! Addition of two numbers
+// let a=10
+// let b=20
+// let res=a+b
+// console.log(`the sum of ${a} and ${b} is ${res}`)
+//  // //! performing operation inside the printing statment without using third variable 
+//  let c=10
+//  let d=20
+//  console.log(`the product of ${c} and ${d} is ${c*d}`)
 
 
- //Tokanization
- // //? case sensitive
- let name="John"
- let Name="smith"
+//  //Tokanization
+//  // //? case sensitive
+//  let name="John"
+//  let Name="smith"
+ //task2 -Pre increment Post Increment.
+//  let a =10
+//  let b =5
+//  console.log(a++);
+//  console.log(b++);
+
+let a=5
+let b=a++ + a++ + ++a
+console.log(a)
+console.log(b) 
+let c= ++a + ++b + a++
+console.log(c)
+console.log(a)
+console.log(b)
+
+
