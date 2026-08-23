@@ -63,7 +63,11 @@
 // console.log(b)//ReferenceError: b is not defined
 // console.log(c)//ReferenceError: c is not defined
 
-
+let a=10
+{
+    console.log(a)
+}
+    console.log(a)
 
 
 
