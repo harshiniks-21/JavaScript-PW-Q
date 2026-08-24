@@ -115,3 +115,140 @@ student_details("Harshini",25,"Playwright","three-mon")
  }
  chech_is_evenOrOdd(20)
  chech_is_evenOrOdd(7)
+
+
+ function adds(a,b)
+ {
+    console.log(a+b)
+ }
+ adds(10,20)
+ adds(10)
+ adds()
+ adds(10,20,50)
+
+ //! function with return Keyword.
+
+ function multi(x,y)
+ {
+    return(x*y)
+ }
+ console.log(multi(10,20))
+ let multiplyresult=multi(2,4)
+ console.log(multiplyresult)
+
+ let addition = multiplyresult + 10
+ console.log(addition)
+
+
+
+
+//! 1)function without parameter and without return keyword
+
+//! ex-01
+function addno(){
+let a=100
+let b=20
+console.log(a+b)
+}
+addno()
+
+//! ex-02
+function sub()
+{
+    let a=30
+    let b=20
+    console.log(a-b)
+}
+sub()
+
+//! 2)function with parameters and without return keyword
+//! ex-1
+function addnos(a,b){
+
+console.log(a+b)
+}
+addno(2,3)
+
+ //! ex-2
+function sub(a,b)
+{
+    console.log(a-b)
+}
+sub(5,4)
+
+
+//! ex-3
+function evenno(a)
+{
+if(a%2==0)
+    {
+        console.log(`the number ${a} is even`)
+    }
+    else
+    {
+        console.log(`the number ${a} is not an  even`)
+    }
+    
+}
+evenno(10)
+
+
+
+//!  3)function without parameters and with return keyword
+//! ex-1
+function additions()
+{
+    let a=10
+    let b=20
+    return(a+b)
+
+}
+console.log(additions())
+
+//! ex-2
+function subtraction()
+{
+    let a=50
+    let b=10
+    return(a-b)
+
+}
+console.log(subtraction())
+
+
+
+
+
+//! 4)function with parameters and with return keyword
+//! ex-01
+function addon(a,b)
+{
+    
+    return(a+b)
+
+}
+console.log(addon(1000,20))
+
+//! ex-02
+function sub(a,b)
+{
+    
+    return(a-b)
+
+}
+console.log(sub(1000,20))
+//! ex-03
+function evenno(a)
+{
+if(a%2==0)
+    {
+        return(`the number ${a} is even`)
+    }
+    else
+    {
+        return(`the number ${a} is not an  even`)
+    }
+    
+}
+evenno(10)
+console.log(evenno(10))
