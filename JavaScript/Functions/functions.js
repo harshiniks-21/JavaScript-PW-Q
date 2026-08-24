@@ -132,10 +132,12 @@ student_details("Harshini",25,"Playwright","three-mon")
  {
     return(x*y)
  }
+ //?call the function in a printing statement
  console.log(multi(10,20))
+ //? call the function and store the result and utilize
  let multiplyresult=multi(2,4)
  console.log(multiplyresult)
-
+//? utilize the result later
  let addition = multiplyresult + 10
  console.log(addition)
 
@@ -252,3 +254,13 @@ if(a%2==0)
 }
 evenno(10)
 console.log(evenno(10))
+
+
+function swap()
+{
+
+
+
+}
+
+console.log()
