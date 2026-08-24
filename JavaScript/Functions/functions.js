@@ -256,11 +256,11 @@ evenno(10)
 console.log(evenno(10))
 
 
-function swap()
+function swap(a,b)
 {
 
 
 
 }
 
-console.log()
+console.log(swap(10,20))
