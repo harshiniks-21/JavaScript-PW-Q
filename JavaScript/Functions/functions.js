@@ -345,3 +345,131 @@ function outer() //2
     inner() //5
 }
 outer() //1
+
+
+
+
+//Arrow Function
+//! multiple parameters:
+//eg:1
+let add =(a,b)=>
+  {
+    console.log(a+b)
+  } 
+  add(2,3)
+  //eg:2
+
+  let add2=(a,b)=> {
+    return a+b
+  }
+  console.log(add2(3,4))
+
+  //eg:3
+  // let sqr = res*res
+  // console.log(sqr(4))
+
+
+  //!single parameter
+  //eg1
+  let sqr = p =>
+  {
+    console.log(p*p);
+  }
+  sqr(5)
+//eg2
+  let sqr1 = x =>{
+    return x*x
+  }
+  console.log(sqr1(10))
+
+//!Zero parameter
+
+// let z=()=>
+// {
+//   //console.log("Zero parameter")
+//   return "Zero parameter"
+// }
+// console.log(z());
+
+//ex:2
+let y=_ =>
+{
+  //console.log("Zero parameter");
+  return "Zero parameter"
+}
+console.log(y());
+
+//! implicit return
+//one line -->skip () and return
+// let sqr11 =s => s* s
+
+//   console.log(sqr(9))
+
+function demo()
+{
+  console.log("Named Function without return")
+}
+demo()
+   
+
+//Higher order function call Back
+function greet(name,clb) //2
+{
+   console.log(`welcome ${name}`); //3
+   clb()//4
+}
+greet("John",()=>{ console.log("This is call back Function"); //1 ->5-finally it will enter into this line
+
+})
+greet("John",function(){
+   console.log(`Ananymous function as a CallBack`);
+
+
+  let demo =()=>
+  {
+     console.log(`arrow Function As a CallBack`);
+  }
+  greet("Allen",demo)
+  }
+  )
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
