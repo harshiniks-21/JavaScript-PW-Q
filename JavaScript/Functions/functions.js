@@ -433,10 +433,25 @@ greet("John",function(){
   }
   )
 
+function calculator(x,y,operation)
+{
+return operation(x,y)
+}
+function add(x,y)
+{
+  return x+y
+}
+function sub(x,y)
+{
+  return x+y
+}
+function Multi(x,y)
+{
+  return x+y
+}
 
 
   
-
 
 
 

@@ -19,13 +19,33 @@
 //  console.log(a++);
 //  console.log(b++);
 
-let a=5
-let b=a++ + a++ + ++a
-console.log(a)
-console.log(b) 
-let c= ++a + ++b + a++
-console.log(c)
-console.log(a)
-console.log(b)
+// let a=5
+// let b=a++ + a++ + ++a
+// console.log(a)
+// console.log(b) 
+// let c= ++a + ++b + a++
+// console.log(c)
+// console.log(a)
+// console.log(b)
+
+
+// let stu={
+// name:"John",
+// id:101,
+// age:25,
+// address:{
+//     city:"BGLR",
+//     PinCode:572201
+// }
+// }
+// //console.log('***************')
+
+// for( keys in stu)
+// {
+// //console.log(keys)
+// //console.log(stu[keys])
+// console.log(`${keys}-${stu[keys]}`)
+// }
+
 
 

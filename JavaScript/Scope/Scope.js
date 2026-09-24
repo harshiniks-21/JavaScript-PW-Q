@@ -63,13 +63,30 @@
 // console.log(b)//ReferenceError: b is not defined
 // console.log(c)//ReferenceError: c is not defined
 
-let a=10
+// let a=10
+// {
+//     console.log(a)
+// }
+//     console.log(a)
+function num(n)
 {
-    console.log(a)
+    for(var i=1;i<n;i++)
+    {
+        console.log(i)//1,2,3,4
+    }
+     console.log(i)//nothing priting
 }
-    console.log(a)
+num(5)
 
-
+function nums(n)
+{
+    for(let i=1;i<n;i++)
+    {
+        console.log(i)//1,2,3,4
+    }
+     console.log(i)//i is not defined.
+}
+nums(5)
 
 
 
