@@ -12,9 +12,9 @@ console.log(names.indexOf('i',4))
 console.log(names.indexOf('i',6))
  console.log(names.charAt(7))
  console.log(names.includes("HiNi"))
-// console.log(names.slice)
-//  let movie='daddy'-->doubt
-//  console.log(movie.indexOf('d',3))
+console.log(names.slice)
+ let movie='daddy'-->doubt
+ console.log(movie.indexOf('d',3))
 
 
 console.log(names.slice(0,-2))
@@ -31,3 +31,8 @@ console.log(names.endsWith('i'))
   console.log(namess.indexOf('i'))
    console.log(namess.indexOf('i',8))
  //console.log(namess.indexOf('i',2``))
+
+
+let task ="JavaScript is My Primary Language"
+console.log(task.split('a'));
+console.log(task.indexOf('a'))

@@ -1,7 +1,7 @@
 //! Destructuring 
 //?Unpacking the data
 //! Array
-//Systax:let [v1,v2,v3..] = arrayname
+//Syntax:let [v1,v2,v3..] = arrayname
 let arr = [10,20,30,40,50]
 //? unpacking ele :
 // let [ten,twenty,thirty] = arr
@@ -16,7 +16,7 @@ let arr = [10,20,30,40,50]
 // console.log(fifty);
   //! objects & nested Object.
   let stu ={
-    name:"Harshini",
+    namee:"Harshini",
     id:101,
     sub: "JavaScript",
     address:
@@ -26,12 +26,12 @@ let arr = [10,20,30,40,50]
     }
   }
 
-let{name,id,sub,address:{pin,city}}= stu
-console.log(stu.name);
-console.log(stu.id);
-console.log(sub)
-console.log(pin)
-console.log(city)
+// let{name,id,sub,address:{pin,city}}= stu
+// console.log(stu.name);
+// console.log(stu.id);
+// console.log(sub)
+// console.log(pin)
+// console.log(city)
 
 
 
@@ -54,11 +54,17 @@ console.log(city)
 // }
 // studentdetails(stu)
 
-//!Rest Parameter : 
-let students =["John","Smith","Allen","King","Raj"]
-let [s1,s2,...others]= students
-console.log(s1)
-console.log(s2)
-console.log(others[0])
-console.log(others[1])
-console.log(others[2])
+//!Rest Parameter  in array: 
+// let students =["John","Smith","Allen","King","Raj"]
+// let [s1,s2,...others]= students
+// console.log(s1)
+// console.log(s2)
+// console.log(others[0])
+// console.log(others[1])
+// console.log(others[2])
+
+//!Rest operator in objects.
+let {namee,...details}=stu
+console.log(namee)
+console.log(details.id)
+console.log(details.sub)
