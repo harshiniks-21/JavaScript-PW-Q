@@ -1,4 +1,7 @@
+//String-collection of characters
 let  names="HaRsHiNi"
+console.log(names.length)//property
+//! in build string methods:->
 console.log(names.toUpperCase()) //-->toUpperCase
 console.log(names.toLowerCase())  //->tolowercase
 console.log(names.replace('a','z'))
@@ -13,8 +16,8 @@ console.log(names.indexOf('i',6))
  console.log(names.charAt(7))
  console.log(names.includes("HiNi"))
 console.log(names.slice)
- let movie='daddy'-->doubt
- console.log(movie.indexOf('d',3))
+//  let movie='daddy'-->doubt
+//  console.log(movie.indexOf('d',3))
 
 
 console.log(names.slice(0,-2))
