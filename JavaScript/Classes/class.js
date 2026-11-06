@@ -1,5 +1,56 @@
 //!Class
 //! syntax class ClassName{ }
+//? within the class scope u cannot declare a variable with the keywords let,var,const.
+class Animal{
+static a=10;
+b=20;
+static greet()
+{
+    console.log("Hi")
+}
+ wish()
+{
+console.log("GM")
+}
+
+}
+console.log(Animal.a);
+//console.log(Animal.b);//undefined
+
+let a=new Animal();
+console.log(a.b)
+Animal.greet();
+a.wish();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,19 +106,19 @@
 // s1.displayStudent()
 // s1.displayPerson()
 
-class Animal
-{
-sound()
-{
-    console.log(`Animal makes Sound`)
-}
-}
-class Dog extends Animal
-{
-    sound(){
-    super.sound();
-    console.log("Dog Barks")
-    }
-}
-let dog=new Dog()
-dog.sound()
+// class Animal
+// {
+// sound()
+// {
+//     console.log(`Animal makes Sound`)
+// }
+// }
+// class Dog extends Animal
+// {
+//     sound(){
+//     super.sound();
+//     console.log("Dog Barks")
+//     }
+// }
+// let dog=new Dog()
+// dog.sound()

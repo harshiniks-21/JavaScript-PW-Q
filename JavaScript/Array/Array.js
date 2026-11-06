@@ -27,18 +27,18 @@
 // //! Inbuild Methods in Array
 
 
-// // //! 1> push()
-// // //? Add the Element at the last Index Position
-// // //?Syntax : array.push()
-// // //?Modifies original array
-// // //?larg--> element to be added 
-// // //?returns the length of an array
-// // let num4 = [10,20,30,40,50]
-// // console.log(num4)
-// // console.log(num4.push(60))
-// // console.log(num4)
-// // num4.push(70,80,90,100)
-// // console.log(num4)
+//! 1> push()
+// ? Add the Element at the last Index Position
+// ?Syntax : array.push()
+// ?Modifies original array
+// ?larg--> element to be added
+// ?returns the length of an array
+let num4 = [10,20,30,40,50]
+console.log(num4)
+console.log(num4.push(60))
+console.log(num4)
+num4.push(70,80,90,100)
+console.log(num4)
 
 
 // // //! 2> pop()
@@ -345,20 +345,3 @@ console.log(Marks)
 // }
 // )
 // console.log(array13)
-
-
-
-
-
-
-
-
-
-
-
-
-let arr1=[]
-console.log(arr1)
-
-   
-
