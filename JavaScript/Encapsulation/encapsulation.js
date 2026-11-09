@@ -19,7 +19,7 @@ class Bank{
     {
         return this.#Actno
     }
-    set setpin(val) //overriding
+    set pin(val) //overriding
     {
         this.#pin=val
     }
@@ -29,7 +29,7 @@ console.log(rf.pin)
 // console.log(rf.Balance)
 // console.log(rf.Actno)
 // console.log(rf.holder)
-rf.setpin=4321
+rf.pin=4321
 console.log(rf.pin)
 
 

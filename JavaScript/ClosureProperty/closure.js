@@ -6,15 +6,17 @@
 //var
 function f1 ()
 {
-        var a = 10;
+        let a = 10;
     function f2()
     {
         console.log(a)
     }
-    f2()
+   return f2
 }
-f1()
-// //  console.log(a)
+let f=f1()
+f()
+//console.log(a)//a is not defined since the variable is not visible to outside of the function f1 and f2.
+
 // //let
 // function f1 ()
 // {

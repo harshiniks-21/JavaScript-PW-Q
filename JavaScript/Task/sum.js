@@ -47,16 +47,16 @@
 // console.log(`${keys}-${stu[keys]}`)
 // }
 //factorial of a number
- function calculator(){
-    let no=0;
-    let fact=1;
-   for(let i=1;i<=no;i++)
-    {
-            fact = fact * i;
-    }
-console.log(fact);
-}
-calculator();
+//  function calculator(){
+//     let no=0;
+//     let fact=1;
+//    for(let i=1;i<=no;i++)
+//     {
+//             fact = fact * i;
+//     }
+// console.log(fact);
+// }
+// calculator();
 
 //revesrse a string
 // function reverseString(str) {
@@ -93,12 +93,18 @@ let s2="JavaScript"
 console.log(s2.split("").reverse().join(""))
 
 //! reverse a Word in a Sentence without using inbuilt methods
+//?
+function outer()
+{
+        let outerVar="I'm in the outer scope";//variable in outer function scope.
+        function inner(){
+           console.log(outerVar); //accesses outerVr even after outer() has finished 
+        }
+         return inner;//returns the  inner function
+}
 
-
-
-
-
-
+const closure=outer();//outer() runs and returns inner().
+closure();//logs  i am in the outer scope.
 
 
 

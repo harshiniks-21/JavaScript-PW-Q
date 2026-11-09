@@ -49,26 +49,47 @@
 
 //?how we can create static and non static properties and how can we access it outside the class
 //? classname.variablename or classname.methodname for static
-//? for non static we can ccess through the instance by using new key word.
+//? for non static we can access through the instance by using new keyword.
 //? we cannot use name property bcoz by default the name is a memory location where the class name  will get stored
 
 
 
-class Application
-{
-    static naam="Amazon"
-    static domain="E-Commerce"
-    static Detailss(){
+// class Application
+// {
+//     static naam="Amazon"
+//     static domain="E-Commerce"
+//     static Detailss(){
 
-        console.log(`${this.naam} is an ${this.domain} Applicationn`)
-    }
-}
-class Wishlist extends Application{
-    static naam="Flipkart"
-    static print()
+//         console.log(`${this.naam} is an ${this.domain} Applicationn`)
+//     }
+// }
+// class Wishlist extends Application{
+//     static naam="Flipkart"
+//     static print()
+//     {
+//         console.log(this.naam)
+//     }
+// }
+// Wishlist.Detailss()
+// Wishlist.print()
+
+class Employee
+{
+    work()
     {
-        console.log(this.naam)
+        console.log("I'm an Employee")
     }
 }
-Wishlist.Detailss()
-Wishlist.print()
+class Developer extends Employee
+//? Child class can inherit properties of it's own class and Parent class(Inherited class).
+{
+    AssignedWork()
+    {
+        console.log("Working on Assigned Story")
+    }
+}
+const dev=new Developer()
+dev.work();
+dev.AssignedWork();
+
+
