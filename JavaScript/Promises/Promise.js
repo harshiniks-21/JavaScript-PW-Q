@@ -85,22 +85,35 @@
 //     console.log(rejec)
 // })
 //! even promises are more complecated and tuff to debug.
-//!to avoid it in 2017 async and awit came into picture.
+//!to avoid it in 2017 async and await came into picture.
 
 
-let p=new Promise((res,rej)=>{
-    let success=true
-    if(success)
-    {
-        res("Task is Completed");
-    }
-    else{
-       rej("Task isn't Completed");
-    }
-})
-// p10.then((result)=>{
-//     console.log(result)
-// }).catch((error)=>{
-//     console.log(error)
+// let p=new Promise((res,rej)=>{
+//     let success=true
+//     if(success)
+//     {
+//         res("Task is Completed");
+//     }
+//     else{
+//        rej("Task isn't Completed");
+//     }
 // })
-console.log(p)
+// // p10.then((result)=>{
+// //     console.log(result)
+// // }).catch((error)=>{
+// //     console.log(error)
+// // })
+// console.log(p)
+let p2=new Promise((resolve,reject)=>{
+    let internet=true;
+    setTimeout(()=>{
+    if(internet)
+    {
+        resolve("Enter URl and Launch the Application");
+    }
+    else
+    {
+        reject("Please connect to Internet")
+    }} ,3000)
+}).then((result)=>{console.log(result)})
+.catch((noresult)=>{console.log(noresult)})

@@ -25,13 +25,33 @@ let s2="JavaScript"
 console.log(s2.split("").reverse().join(""))
 
 //! reverse a Word in a Sentence with using inbuilt methods
-let s3="My name is Harshini"
-let word=s3.split(" ")
-console.log(word)
-word[3]=word[3].split("").reverse().join("")
-console.log(word[3])
-let result=word.join(" ")
-console.log(result)
+// let s3="My name is Harshini"
+// let word=s3.split(" ")
+// console.log(word)
+// word[3]=word[3].split("").reverse().join("")
+// console.log(word[3])
+// let result=word.join(" ")
+// console.log(result)
+
+let z="My name is Harshiniiiii"
+let z1=z.split(" ")
+console.log(z1)
+z1[1]=z1[1].split("").reverse().join("")
+console.log(z1)
+let final=z1.join(" ")
+console.log(final)
+
+
+//reverse a whole sentence .
+let sent="Am Practising JavaScript Programming language"
+rev=sent.split(" ").reverse().join(" ")
+console.log(rev)
+
+
+
+
+
+
 
 //! reverse a Word in a Sentence WithOut using inbuilt methods
 

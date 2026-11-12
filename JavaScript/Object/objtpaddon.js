@@ -1,18 +1,18 @@
 //function which is written inside an object is called as Method.
 //object literal way.
-let empl1={
-    name:"Harshini",
-    empid:"EMP01",
-    age:26,
-    salary:"5lpa",
-    work:function(){
-        console.log("I will Finish assigned Work")
+// let empl1={
+//     name:"Harshini",
+//     empid:"EMP01",
+//     age:26,
+//     salary:"5lpa",
+//     work:function(){
+//         console.log("I will Finish assigned Work")
 
-    },
-    obj2:{
-        wish:"Iam in tp"
-    }
-}
+//     },
+//     obj2:{
+//         wish:"Iam in tp"
+//     }
+// }
 // console.log(empl1.name);
 // empl1.work();
 // empl1.age=27
@@ -28,7 +28,7 @@ let empl1={
 
 //iteration
 //for-in is used to iterate over the keys in object
-for( let keys in empl1)
-{
-    console.log(empl1[keys]);
-}
+// for( let keys in empl1)
+// {
+//     console.log(empl1[keys]);
+// }
