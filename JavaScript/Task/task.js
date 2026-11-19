@@ -10,8 +10,10 @@
 // }
 // calculator();
 
- 
-// //! reverse a string without using inbuilt methods
+    
+
+
+// //! reverse a string without using inbuilt method
 // let s1="JavaScript"
 // let reverse=""
 // for(let i=s1.length-1;i>=0;i--)
