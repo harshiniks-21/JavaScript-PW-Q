@@ -1,28 +1,28 @@
 //factorial of a number
- function calculator(){
-    let no=0;
-    let fact=1;
-   for(let i=1;i<=no;i++)
-    {
-            fact = fact * i;
-    }
-console.log(fact);
-}
-calculator();
+//  function calculator(){
+//     let no=0;
+//     let fact=1;
+//    for(let i=1;i<=no;i++)
+//     {
+//             fact = fact * i;
+//     }
+// console.log(fact);
+// }
+// calculator();
 
 
-//! reverse a string without using inbuilt methods
-let s1="JavaScript"
-let reverse=""
-for(let i=s1.length-1;i>=0;i--)
-{
-        reverse= reverse+ s1.charAt(i);
-}
-console.log(reverse)
+// //! reverse a string without using inbuilt methods
+// let s1="JavaScript"
+// let reverse=""
+// for(let i=s1.length-1;i>=0;i--)
+// {
+//         reverse= reverse+ s1.charAt(i);
+// }
+// console.log(reverse)
 
-//! reverse a string with using inbuilt methods
-let s2="JavaScript"
-console.log(s2.split("").reverse().join(""))
+// //! reverse a string with using inbuilt methods
+// let s2="JavaScript"
+// console.log(s2.split("").reverse().join(""))
 
 //! reverse a Word in a Sentence with using inbuilt methods
 // let s3="My name is Harshini"
@@ -33,20 +33,31 @@ console.log(s2.split("").reverse().join(""))
 // let result=word.join(" ")
 // console.log(result)
 
-let z="My name is Harshiniiiii"
-let z1=z.split(" ")
-console.log(z1)
-z1[1]=z1[1].split("").reverse().join("")
-console.log(z1)
-let final=z1.join(" ")
-console.log(final)
 
 
-//reverse a whole sentence .
-let sent="Am Practising JavaScript Programming language"
-rev=sent.split(" ").reverse().join(" ")
-console.log(rev)
 
+//!reverse a whole sentence using inbuilt Methods.
+// let sent="Am Practising JavaScript Programming language"
+// rev=sent.split(" ").reverse().join(" ")
+// console.log(rev)
+
+//!reverse a whole sentence without using inbuilt Methods.
+// let str="Javascript is my fav programming language"
+// let res=""
+// let word=""
+// for(let i=str.length-1;i>=0;i--)
+// {
+//        if(str[i]!==" ")
+//        {
+//         word=str[i]+word
+//        }
+//        else{
+//         res=res+word+" "
+//         word=" "
+//        }
+// }
+// res=res+word
+// console.log(res)
 
 
 
@@ -61,7 +72,12 @@ console.log(rev)
 
 
 
+//*1**LEAP YEAR.
+function isLeapYear(year) {
+  return (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
+}
 
+console.log(isLeapYear(2027));
 
 
 
@@ -113,10 +129,10 @@ console.log(rev)
 // console.log(str2.join(" "))
 
 
-let a=20
-let d=a
-console.log(a)
-console.log(d)
-d=60
-console.log(a)
-console.log(d)
+// let a=20
+// let d=a
+// console.log(a)
+// console.log(d)
+// d=60
+// console.log(a)
+// console.log(d)
