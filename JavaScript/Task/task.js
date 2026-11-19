@@ -10,7 +10,7 @@
 // }
 // calculator();
 
-
+ 
 // //! reverse a string without using inbuilt methods
 // let s1="JavaScript"
 // let reverse=""
