@@ -1,14 +1,14 @@
 //synchronous execution.
-let order
-function placeOrder()
-{
-    console.log("Order Pizza")
-    order="Pizza"
-    console.log("Order is Placed")
+// let order
+// function placeOrder()
+// {
+//     console.log("Order Pizza")
+//     order="Pizza"
+//     console.log("Order is Placed")
 
-}
-placeOrder()
-console.log(order)
+// }
+// placeOrder()
+// console.log(order)
 //? output
 // Order Pizza
 // Order is Placed
@@ -32,20 +32,20 @@ console.log(order)
 // Order is Placed
 // undefined
 
-// let order
-// function placeOrder(o)
-// {
-//     console.log("Order Pizza")
-//     setTimeout(()=>{order="Pizza"          
-//         o()
-//     },2000)
-//     console.log("Order is Placed")
+let order
+function placeOrder(o)
+{
+    console.log("Order Pizza")
+    setTimeout(()=>{order="Pizza"          
+        o()
+    },2000)
+    console.log("Order is Placed")
 
-// }
-// placeOrder(pizzaorder)
-// function pizzaorder(){
-// console.log(order)
-// }
+}
+placeOrder(pizzaorder)
+function pizzaorder(){
+console.log(order)
+}
 
 
 //? calling one function inside another function and inside another more function will create a pyramid like structure this is called call back hell.
