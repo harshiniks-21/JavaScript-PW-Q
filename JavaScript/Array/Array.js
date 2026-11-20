@@ -27,21 +27,21 @@
 // //! Inbuild Methods in Array
 
 
-//! 1> push()
-// ? Add the Element at the last Index Position
-// ?Syntax : array.push()
-// ?Modifies original array
-// ?larg--> element to be added
-// ?returns the length of an array
-let num4 = [10,20,30,40,50]
-console.log(num4)
-console.log(num4.push(60))
-console.log(num4)
-num4.push(70,80,90,100)
-console.log(num4)
+// //! 1> push()
+// // ? Add the Element at the last Index Position
+// // ?Syntax : array.push()
+// // ?Modifies original array
+// // ?larg--> element to be added
+// // ?returns the length of an array
+// let num4 = [10,20,30,40,50]
+// console.log(num4)
+// console.log(num4.push(60))
+// console.log(num4)
+// num4.push(70,80,90,100)
+// console.log(num4)
 
 
-// // //! 2> pop()
+// //! 2> pop()
 // // //? Remove the Element at the last Index Position
 // // //?Syntax : array.pop()
 // // //?Modifies original array
@@ -53,7 +53,7 @@ console.log(num4)
 // // console.log(num5)
 
 
-// // ! 3> shift()
+// ! 3> shift()
 // // //? Remove the Element at the First Index Position
 // // //?Syntax : array.shift()
 // // //?Modifies original array
@@ -63,7 +63,7 @@ console.log(num4)
 // // console.log(num5)
 
 
-// // ! 4> unshift()
+// ! 4> unshift()
 // // //? Adds the Element at the First Index Position
 // // //?Syntax : array.unshift()
 // // //?Modifies original array
@@ -73,14 +73,14 @@ console.log(num4)
 // console.log(num5)
 
 // //! 5. splice()
-// // add, remove and replace the element
-// // syntax: arrayname.splice(start index, delete count, items)
-// // start index - value of index where to delete
-// // delete count - how many elements to be deleted
-// // items - to be added or replaced
-// // modifies the original array
-// // 3 args accepted - (start index, delete count, items)
-// // returns the removed element
+// add, remove and replace the element
+// syntax: arrayname.splice(start index, delete count, items)
+// start index - value of index where to delete
+// delete count - how many elements to be deleted
+// items - to be added or replaced
+// modifies the original array
+// 3 args accepted - (start index, delete count, items)
+// returns the removed element
 
 // let num3 = [2, 5, 7, 8, 9, 3];
 // console.log(num3.splice(2, 3, "hello", "hi", "bye")); // (3) [7, 8, 9]
@@ -98,12 +98,12 @@ console.log(num4)
 // let array1 = arr.concat(acc, "hello", "hi");
 // console.log(array1); // (9) [10, 30, 40, 50, 60, 10, 30, 'hello', 'hi']
 
-// // 7. indexOf()
-// // used to fetch the first occurrence of an element in an array
-// // syntax: arrayname.indexOf(searchElement, startIndex(optional))
-// // does not change the original array
-// // 1 arg - (searchElement)
-// // returns the index position
+// 7. indexOf()
+// used to fetch the first occurrence of an element in an array
+// syntax: arrayname.indexOf(searchElement, startIndex(optional))
+// does not change the original array
+// 1 arg - (searchElement)
+// returns the index position
 
 // let abc = ["a", "b", "b", "d", "c", "e", "c", "a", "e"];
 // let res = abc.indexOf("c");
@@ -187,71 +187,71 @@ console.log(num4)
 // It does not modify original array
 // It returns the flattened array
 
-// let arr1 = [10, [20, 30, [40, 50, [60, [70]]]]];
-// console.log(arr1);
-// console.log(arr1.flat(1));
+let arr1 = [10, [20, 30, [40, 50, [60, [70]]]]];
+console.log(arr1);
+console.log(arr1.flat(1));
 // console.log(arr1.flat(2));
 // console.log(arr1.flat(3));
 // console.log(arr1.flat(4));
 // console.log(arr1.flat(Infinity));
 
 
-//! 14> join()
-//? used to join array elements into a string
-//? syntax: array.join(separator)
-let fruits1 = ["apple", "banana", "cherry"];
-console.log(fruits1);
-console.log(fruits1.join(","));
-console.log(fruits1.join(" "));
-console.log(fruits1.join("-"));
-console.log(fruits1.join("_"));
+// //! 14> join()
+// //? used to join array elements into a string
+// //? syntax: array.join(separator)
+// let fruits1 = ["apple", "banana", "cherry"];
+// console.log(fruits1);
+// console.log(fruits1.join(","));
+// console.log(fruits1.join(" "));
+// console.log(fruits1.join("-"));
+// console.log(fruits1.join("_"));
 
-let navbar = ["home", "about", "profile", "setting"];
-console.log(navbar.join(","));
+// let navbar = ["home", "about", "profile", "setting"];
+// console.log(navbar.join(","));
 
-//! 15> toString
- console.log(fruits1);
+// //! 15> toString
+//  console.log(fruits1);
 
-console.log(fruits1.toString());
+// console.log(fruits1.toString());
 
-// Higher method
-//? map
+// // Higher method
+// //? map
 
-let arr1 = [10,20,30]
-arr1.map((ele,ind)=>
-{
-    console.log(ele)
-     console.log(ind)
-})
+// let arr1 = [10,20,30]
+// arr1.map((ele,ind)=>
+// {
+//     console.log(ele)
+//      console.log(ind)
+// })
 
-let male=["shiva","Ganesha","Vishnu"]
-male.map((ele,ind)=>{
+// let male=["shiva","Ganesha","Vishnu"]
+// male.map((ele,ind)=>{
 
-        console.log(`mr ${ele}`)
-        console.log(ind)
-}
+//         console.log(`mr ${ele}`)
+//         console.log(ind)
+// }
 
-)
-let Female=["Parvathi","Gowri","Lakshmi"]
-Female.map((ele,ind)=>{
+// )
+// let Female=["Parvathi","Gowri","Lakshmi"]
+// Female.map((ele,ind)=>{
 
-        console.log(`ms ${ele}`)
-        console.log(ind)
-}
+//         console.log(`ms ${ele}`)
+//         console.log(ind)
+// }
 
-)
-let  Pass=['Hars_21@123','harsh','hars@7189']
-let resultttt=Pass.filter((ele)=>{
-return ele.length>=6
-})
-console.log(resultttt)
+// )
+// let  Pass=['Hars_21@123','harsh','hars@7189']
+// let resultttt=Pass.filter((ele)=>{
+// return ele.length>=6
+// })
+// console.log(resultttt)
 
-let marks=[40,50,30,20]
- let Marks=marks.filter((ele,)=>{
-    return ele>30
+// let marks=[40,50,30,20]
+//  let Marks=marks.filter((ele,)=>{
+//     return ele>30
     
-})
-console.log(Marks)
+// })
+// console.log(Marks)
 
 
 

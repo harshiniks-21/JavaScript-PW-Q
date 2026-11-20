@@ -69,11 +69,16 @@
 //! reverse a Word in a Sentence WithOut using inbuilt methods
 
 //*1**LEAP YEAR.
-function isLeapYear(year) {
-  return (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
-}
+// function isLeapYear(year) {
+//   return (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
+// }
 
-console.log(isLeapYear(2027));
+//console.log(isLeapYear(2027));
+//* //*Reverse a number.
+let str=1234
+let rev=str.toString().split('').reverse('').join('');
+console.log(rev)
+
 
 
 

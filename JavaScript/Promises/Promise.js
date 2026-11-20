@@ -5,16 +5,17 @@
 //? it's a core feature of JS.
 
 // launch the url
-// let p= new Promise((res,rej)=>{
-//     setTimeout(()=>{console.log("Launch the URL");
-// res("Url is Launched")
-// rej("404 error")
+let p= new Promise((res,rej)=>{
+setTimeout(()=>{console.log("Launch the URL");
+res("Url is Launched")
+rej("404 error")
 
 
-//     },2000)
+    },2000)
 
-// }).then((result)=>{console.log(result)
-// }).catch((error)=>{console.log(error)})
+}).then((result)=>{console.log(result)
+})
+//.catch((error)=>{console.log(error)})
 
 // //log in page.
 // let p2=new Promise((ress,rejj)=>{
@@ -104,16 +105,16 @@
 // //     console.log(error)
 // // })
 // console.log(p)
-let p2=new Promise((resolve,reject)=>{
-    let internet=true;
-    setTimeout(()=>{
-    if(internet)
-    {
-        resolve("Enter URl and Launch the Application");
-    }
-    else
-    {
-        reject("Please connect to Internet")
-    }} ,3000)
-}).then((result)=>{console.log(result)})
-.catch((noresult)=>{console.log(noresult)})
+// let p2=new Promise((resolve,reject)=>{
+//     let internet=true;
+//     setTimeout(()=>{
+//     if(internet)
+//     {
+//         resolve("Enter URl and Launch the Application");
+//     }
+//     else
+//     {
+//         reject("Please connect to Internet")
+//     }} ,3000)
+// }).then((result)=>{console.log(result)})
+// .catch((noresult)=>{console.log(noresult)})
