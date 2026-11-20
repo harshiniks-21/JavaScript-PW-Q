@@ -92,12 +92,12 @@ console.log(result)
 let a=15
 if(a%2==0)
 {
-  console.log(`${a} ia an Even number`);
+  console.log(`${a} is an Even number`);
 }
 else
 {
        
-   console.log(`${a} ia an Odd number`);
+   console.log(`${a} is an Odd number`);
 
 }
 
