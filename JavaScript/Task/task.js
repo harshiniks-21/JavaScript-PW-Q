@@ -77,7 +77,7 @@
 //* //*Reverse a number.
 let str=1234
 let rev=str.toString().split('').reverse('').join('');
-console.log(rev)
+console.log(rev);
 
 
 
