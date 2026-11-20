@@ -78,7 +78,28 @@
 let str=1234
 let rev=str.toString().split('').reverse('').join('');
 console.log(rev);
+//* //*Reverse words in a sentence
+let sen="My name is Harshini"
+let wrd=sen.split(' ')
+console.log(wrd);
+wrd[1]=wrd[1].split('').reverse('').join('')
+console.log(wrd[1])
+console.log(wrd)
+let result=wrd.join(" ")
+console.log(result)
 
+//* //Even or Odd
+let a=15
+if(a%2==0)
+{
+  console.log(`${a} ia an Even number`);
+}
+else
+{
+       
+   console.log(`${a} ia an Odd number`);
+
+}
 
 
 
