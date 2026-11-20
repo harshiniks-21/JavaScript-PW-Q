@@ -68,12 +68,6 @@
 
 //! reverse a Word in a Sentence WithOut using inbuilt methods
 
-
-
-
-
-
-
 //*1**LEAP YEAR.
 function isLeapYear(year) {
   return (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
