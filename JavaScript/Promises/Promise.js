@@ -34,18 +34,18 @@ rej("404 error")
 // Url is Launched
 //since the p2 is executing first we should do promise chaining in order to avoid the above issue.
 
-// p.then(()=>{
-//     let p2=new Promise((ress,rejj)=>{
-//     setTimeout(()=>{console.log("Log-in")})
-//     ress("Logged in")
-//     rejj("Error encountered")
-// }).then((result1)=>{
-//     console.log(result1)
-// }).catch((error1)=>{
-//     console.log(error1)
-// })
+p.then(()=>{
+    let p2=new Promise((ress,rejj)=>{
+    setTimeout(()=>{console.log("Log-in")})
+    ress("Logged in")
+    rejj("Error encountered")
+}).then((result1)=>{
+    console.log(result1)
+}).catch((error1)=>{
+    console.log(error1)
+})
 
-// })
+})
 // let p3=new Promise((reso,reje)=>{
 // console.log("Home page");
 // reso("Home page is displayed");

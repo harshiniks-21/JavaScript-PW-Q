@@ -1,14 +1,14 @@
 //factorial of a number
-//  function calculator(){
-//     let no=0;
-//     let fact=1;
-//    for(let i=1;i<=no;i++)
-//     {
-//             fact = fact * i;
-//     }
-// console.log(fact);
-// }
-// calculator();
+ function calculator(){
+    let no=5;
+    let fact=1;
+   for(let i=1;i<=no;i++)
+    {
+            fact = fact * i;
+    }
+console.log(fact);
+}
+calculator();
 
     
 
@@ -75,33 +75,57 @@
  
 
 //console.log(isLeapYear(2027));
-//* //*Reverse a number.
-let str=1234
-let rev=str.toString().split('').reverse('').join('');
-console.log(rev);
-//* //*Reverse words in a sentence
-let sen="My name is Harshini"
-let wrd=sen.split(' ')
-console.log(wrd);
-wrd[1]=wrd[1].split('').reverse('').join('')
-console.log(wrd[1])
-console.log(wrd)
-let result=wrd.join(" ")
-console.log(result)
+//* //*2>Reverse a number.
+// let str=1234
+// let rev=str.toString().split('').reverse('').join('');
+// console.log(rev);
+// //* //*3>Reverse words in a sentence
+// let sen="My name is Harshini"
+// let wrd=sen.split(' ')
+// console.log(wrd);
+// wrd[1]=wrd[1].split('').reverse('').join('')
+// console.log(wrd[1])
+// console.log(wrd)
+// let result=wrd.join(" ")
+// console.log(result)
 
-//* //Even or Odd
-let a=15
-if(a%2==0)
-{
-  console.log(`${a} is an Even number`);
-}
-else
-{
+// //* //*4>Even or Odd
+// let a=15
+// if(a%2==0)
+// {
+//   console.log(`${a} is an Even number`);
+// }
+// else
+// {
        
-   console.log(`${a} is an Odd number`);
+//    console.log(`${a} is an Odd number`);
 
-}
+// }
 
+// //* //* 5>Find the Largest of Three Numbers.
+// let a1=10;
+// let b1=5;
+// let c1=1000;
+// let d=Math.max(a1,b1,c1);
+// console.log(d)
+ 
+// //? without using built in function.
+// function largest(a,b,c){
+//        let large;
+//        if(a>=c && a>=b)
+//        {
+//               largest=a;
+//        }
+//        else if (b>=c && b>=a)
+//        {
+//               largest=b;
+//        }
+//        else {
+//               largest=c;
+//        }
+//        return largest;
+// }
+// console.log(largest(0,1,-5023456780))
 
 
 
@@ -159,3 +183,12 @@ else
 // d=60
 // console.log(a)
 // console.log(d)
+
+//* // Factorial number
+let fact=1;
+let number=5
+for(let i=number;i>=1;i--){
+       fact=fact*i
+}
+console.log(fact);
+
