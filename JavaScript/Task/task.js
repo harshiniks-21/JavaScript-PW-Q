@@ -183,7 +183,7 @@ calculator();
 // d=60
 // console.log(a)
 // console.log(d)
-
+ 
 //* //6> Factorial number
 let fact=1;
 let number=5
