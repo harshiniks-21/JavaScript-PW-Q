@@ -190,6 +190,7 @@ let number=5
 for(let i=number;i>=1;i--){
        fact=fact*i
 }
+
 console.log(fact);
 
 //* // array elements in reverse order.
