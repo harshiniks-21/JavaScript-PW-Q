@@ -184,7 +184,7 @@ calculator();
 // console.log(a)
 // console.log(d)
 
-//* // Factorial number
+//* //6> Factorial number
 let fact=1;
 let number=5
 for(let i=number;i>=1;i--){
@@ -193,16 +193,16 @@ for(let i=number;i>=1;i--){
 
 console.log(fact);
 
-//* // array elements in reverse order.
+//* // 7>array elements in reverse order.
 let arr=[10,20,30,40]
 console.log(arr.reverse());
 
-//* // remove duplicate values from Array.
+//* // 8>remove duplicate values from Array.
 let arr1=[10,20,20,30,40,50,60,10,20,30]
 let set=[...new Set(arr1)]
 console.log(set);
 
-//* // String-Palindrome 
+//* // 9>String-Palindrome 
 function isPalindrome(str)
 {
          let rev=str.split("").reverse("").join("")
@@ -218,8 +218,7 @@ isPalindrome("nitin")
 isPalindrome("ram")
 isPalindrome("KanaK")
 
-//* // Number Palindrome
-
+//* // 10>Number Palindrome
 let no=121;
 let rev=0;
 let copy=no;
@@ -237,3 +236,21 @@ else
 {
 console.log("No is not Palindrome")
 }
+//* //11> Prime Number
+let num=5
+let count=0
+for(let i=1;i<=num;i++)
+{
+        if(num%i==0)
+        {
+                count++;        
+        }
+}       if(count==2)
+        {
+                console.log(`${num} is a prime number`)
+        }
+        else
+        {
+                 console.log(`${num} is  not a prime number`)
+        }
+
