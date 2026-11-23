@@ -192,3 +192,13 @@ for(let i=number;i>=1;i--){
 }
 console.log(fact);
 
+//* // array elements in reverse order.
+let arr=[10,20,30,40]
+console.log(arr.reverse());
+
+//* // remove duplicate values from Array.
+let arr1=[10,20,20,30,40,50,60,10,20,30]
+let set=[...new Set(arr1)]
+console.log(set);
+
+
