@@ -202,4 +202,38 @@ let arr1=[10,20,20,30,40,50,60,10,20,30]
 let set=[...new Set(arr1)]
 console.log(set);
 
+//* // String-Palindrome 
+function isPalindrome(str)
+{
+         let rev=str.split("").reverse("").join("")
+         if(str==rev)
+         {
+                console.log("Given string is palindrome")
+         }
+         else{
+                console.log("Given string is not a palindrome")
+         }
+}
+isPalindrome("nitin")
+isPalindrome("ram")
+isPalindrome("KanaK")
 
+//* // Number Palindrome
+
+let no=121;
+let rev=0;
+let copy=no;
+while(no!=0)
+{
+let rem=no%10;
+rev=rev*10+rem;
+no=Math.floor(no/10);
+}
+if(copy==rev)
+{
+console.log("No is palindrome")
+}
+else
+{
+console.log("No is not Palindrome")
+}
