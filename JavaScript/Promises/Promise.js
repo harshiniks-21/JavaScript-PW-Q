@@ -5,37 +5,17 @@
 //? it's a core feature of JS.
 
 // launch the url
+//************/
 let p= new Promise((res,rej)=>{
 setTimeout(()=>{console.log("Launch the URL");
 res("Url is Launched")
-rej("404 error")
-
-
-    },2000)
-
+rej("404 error")},2000)
 }).then((result)=>{console.log(result)
 })
-//.catch((error)=>{console.log(error)})
+.catch((error)=>{console.log(error)})
 
 // //log in page.
-// let p2=new Promise((ress,rejj)=>{
-//     setTimeout(()=>{console.log("Log-in")})
-//     ress("Logged in")
-//     rejj("Error encountered")
-// }).then((result1)=>{
-//     console.log(result1)
-// }).catch((error1)=>{
-//     console.log(error1)
-// })
-//! output
-// Logged in
-// Log-in
-// Launch the URL
-// Url is Launched
-//since the p2 is executing first we should do promise chaining in order to avoid the above issue.
-
-p.then(()=>{
-    let p2=new Promise((ress,rejj)=>{
+let p2=new Promise((ress,rejj)=>{
     setTimeout(()=>{console.log("Log-in")})
     ress("Logged in")
     rejj("Error encountered")
@@ -44,8 +24,25 @@ p.then(()=>{
 }).catch((error1)=>{
     console.log(error1)
 })
+//! output
+// Logged in
+// Log-in
+// Launch the URL
+// Url is Launched
+//since the p2 is executing first we should do promise chaining in order to avoid the above issue.
+//********** */
+// p.then(()=>{
+//     let p2=new Promise((ress,rejj)=>{
+//     setTimeout(()=>{console.log("Log-in")})
+//     ress("Logged in")
+//     rejj("Error encountered")
+// }).then((result1)=>{
+//     console.log(result1)
+// }).catch((error1)=>{
+//     console.log(error1)
+// })
 
-})
+// })
 // let p3=new Promise((reso,reje)=>{
 // console.log("Home page");
 // reso("Home page is displayed");
@@ -118,3 +115,20 @@ p.then(()=>{
 //     }} ,3000)
 // }).then((result)=>{console.log(result)})
 // .catch((noresult)=>{console.log(noresult)})
+
+
+// let z1=new Promise((res,rej)=>{
+//     setTimeout(()=>{
+//         console.log("Launch the url")
+//         res("Launched the URL")
+//         rej("Internet is SLow")
+//     },2000)
+// }).then((result)=>{console.log(result)})
+// z1.then(()=>{
+//     let z2=new Promise((resolve,reject)=>{
+       
+//             resolve("Navigate to Menu")
+//     })
+
+// }).then((ress)=>{console.log(ress)})
+// console.log(z1)
