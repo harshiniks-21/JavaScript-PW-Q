@@ -254,11 +254,15 @@ for(let i=1;i<=num;i++)
                  console.log(`${num} is  not a prime number`)
         }
 //* // 12> vowels count.
-        let str = "Harshini";
+        let str = "Hcrshgng";
 
         let matches = str.match(/[aeiou]/gi);
-
+        if(matches){
         console.log(matches);
         console.log(matches.length);
-
+        }
+        else{
+        console.log("No vowels Found")       
+        console.log("0 Vowels")
+        }
 
