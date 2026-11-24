@@ -254,15 +254,30 @@ for(let i=1;i<=num;i++)
                  console.log(`${num} is  not a prime number`)
         }
 //* // 12> vowels count.
-        let str = "Hcrshgng";
-
+        let str = "Harshini";
         let matches = str.match(/[aeiou]/gi);
         if(matches){
         console.log(matches);
         console.log(matches.length);
         }
         else{
-        console.log("No vowels Found")       
-        console.log("0 Vowels")
+        console.log("No vowels Found");       
+        console.log("0 Vowels");
         }
-
+// * // 13>find the order of Occurence of a letter in a word.
+        let Word="Harshini"
+        Word=Word.toLowerCase();
+        let cnt={};
+        for(let i=0;i<Word.length;i++)
+        {
+                let ch=Word[i];
+                if(cnt[ch])
+                {
+                        cnt[ch]++;
+                }
+                else{
+                        cnt[ch]=1;
+                    }
+        }
+        console.log(cnt);
+        
